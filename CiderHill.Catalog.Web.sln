@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CiderHill.Catalog.Web", "CiderHill.Catalog.Web\CiderHill.Catalog.Web.csproj", "{0CACB57E-C3C2-4F82-BFEC-4677D99B67BE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CA52DE84-F2A4-439E-B24D-711868C7A3CC} = {CA52DE84-F2A4-439E-B24D-711868C7A3CC}
+		{27E2D78B-76F8-468E-BE03-C723682E9759} = {27E2D78B-76F8-468E-BE03-C723682E9759}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CiderHill.Catalog.Web.Tests", "CiderHill.Catalog.Web.Tests\CiderHill.Catalog.Web.Tests.csproj", "{2BB1333E-06E9-45A9-BF58-2935DB58BAF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CiderHill.Catalog.Data", "CiderHill.Catalog.Data\CiderHill.Catalog.Data.csproj", "{27E2D78B-76F8-468E-BE03-C723682E9759}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CiderHill.Catalog.BusinessServices", "CiderHill.Catalog.BusinessServices\CiderHill.Catalog.BusinessServices.csproj", "{CA52DE84-F2A4-439E-B24D-711868C7A3CC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{27E2D78B-76F8-468E-BE03-C723682E9759} = {27E2D78B-76F8-468E-BE03-C723682E9759}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CACB57E-C3C2-4F82-BFEC-4677D99B67BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CACB57E-C3C2-4F82-BFEC-4677D99B67BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CACB57E-C3C2-4F82-BFEC-4677D99B67BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CACB57E-C3C2-4F82-BFEC-4677D99B67BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BB1333E-06E9-45A9-BF58-2935DB58BAF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BB1333E-06E9-45A9-BF58-2935DB58BAF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BB1333E-06E9-45A9-BF58-2935DB58BAF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BB1333E-06E9-45A9-BF58-2935DB58BAF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27E2D78B-76F8-468E-BE03-C723682E9759}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27E2D78B-76F8-468E-BE03-C723682E9759}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27E2D78B-76F8-468E-BE03-C723682E9759}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27E2D78B-76F8-468E-BE03-C723682E9759}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA52DE84-F2A4-439E-B24D-711868C7A3CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA52DE84-F2A4-439E-B24D-711868C7A3CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA52DE84-F2A4-439E-B24D-711868C7A3CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA52DE84-F2A4-439E-B24D-711868C7A3CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

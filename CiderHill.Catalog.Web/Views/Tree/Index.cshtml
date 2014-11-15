@@ -1,0 +1,21 @@
+﻿@model CiderHill.Catalog.Web.ViewModels.TreeViewModel
+@{
+    ViewBag.Title = "Home Page";
+}
+<div>
+    <table id="treeTable" class="table table-striped">
+        <thead>
+            <tr>
+                <th>name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var tree in Model.Trees)
+            {
+                <tr>
+                    <td>tree.Id</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
